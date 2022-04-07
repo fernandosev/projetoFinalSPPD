@@ -1,0 +1,70 @@
+ul.spot-list{
+    width: 100%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 30px;
+}
+
+ul.spot-list li{
+    display: flex;
+    flex-direction: column;
+}
+
+ul.spot-list li header{
+    width: 100%;
+    height: 120px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 4px;
+}
+
+ul.spot-list li strong{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #444;
+}
+
+ul.spot-list li span{
+    font-size: 15px;
+    color: #999;
+}
+
+ul.users{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+ul.users li{
+    font-size: 15px;
+    line-height: 24px;
+}
+
+ul.users li button{
+    margin-right: 10px;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+ul.users li button.delete{
+    color: #E55E5C;
+    cursor: pointer;
+    background-color: #FFF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+ul.users li button.calendar{
+    color: #1E90FF;
+    cursor: pointer;
+    background-color: #FFF;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.btn{
+    margin-bottom: 20px;
+}
